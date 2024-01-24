@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjetRelou33"
         mc:Ignorable="d"
-        Title="Projet Relou 33 !" Height="450" Width="800">
+        Title="Projet Relou 33 !" Height="400" Width="800">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black"/>
-            <GradientStop Color="#FF420000" Offset="1"/>
+            <GradientStop Color="#FF0B9068" Offset="1"/>
         </LinearGradientBrush>
     </Window.Background>
     <Grid>
@@ -37,9 +37,35 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <CheckBox Content="Accepter les Conditions" HorizontalAlignment="Left" Margin="374,316,0,0" VerticalAlignment="Top" Width="237" Checked="CheckBox_Checked" Foreground="#FFFBFBFB"/>
+        <CheckBox Content="Accepter les Conditions" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" Width="236" Checked="CheckBox_Checked" Foreground="#FFFBFBFB"/>
         <ComboBox HorizontalAlignment="Left" Margin="115,66,0,0" VerticalAlignment="Top" Width="227" Height="27"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="120,35,0,0" VerticalAlignment="Top" Width="222" Foreground="#FFF9F9F9"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="47,244,0,0" VerticalAlignment="Top" Height="52" Width="136" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6B9E05" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="342,244,0,0" VerticalAlignment="Top" Height="52" Width="82" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0DAD7D" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="630,244,0,0" VerticalAlignment="Top" Height="52" Width="134" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0035D8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <ComboBox HorizontalAlignment="Left" Margin="425,66,0,0" VerticalAlignment="Top" Width="227" Height="27"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="430,35,0,0" VerticalAlignment="Top" Width="222" Foreground="#FFF9F9F9"/>
 
     </Grid>
 </Window>
