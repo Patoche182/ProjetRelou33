@@ -12,12 +12,12 @@
             <GradientStop Color="#FF0B9068" Offset="1"/>
         </LinearGradientBrush>
     </Window.Background>
-    <Grid>
+    <Grid Background="#FF0A0808">
         <Button Content="Button" HorizontalAlignment="Left" Margin="47,174,0,0" VerticalAlignment="Top" Height="52" Width="136" Foreground="White">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
-                    <GradientStop Color="#FF6B9E05" Offset="1"/>
+                    <GradientStop Color="#FF9E0C05" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
@@ -44,7 +44,7 @@
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
-                    <GradientStop Color="#FF6B9E05" Offset="1"/>
+                    <GradientStop Color="#FF9E0C05" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
